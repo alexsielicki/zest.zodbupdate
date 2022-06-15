@@ -4,6 +4,7 @@ rename_dict = {
     "App.interfaces IPersistentExtra": iface,
     "App.interfaces IUndoSupport": iface,
     "Products.ResourceRegistries.interfaces.settings IResourceRegistriesSettings": iface,
+    "Products.PloneFormGen.content.form FormFolder": iface,
 }
 # I have seen zodbverify on Python 2 complain with a warning about various webdav.interfaces factories.
 # Might be okay to keep them, because webdav will return in Zope 4.3.
