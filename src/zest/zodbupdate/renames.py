@@ -5,6 +5,26 @@ rename_dict = {
     "App.interfaces IUndoSupport": iface,
     "Products.ResourceRegistries.interfaces.settings IResourceRegistriesSettings": iface,
     "Products.PloneFormGen.content.form FormFolder": iface,
+    "Products.PloneFormGen.content.fields FGStringField": iface,
+#    "Products.PloneFormGen.validators.MaxLengthValidator MaxLengthValidator": iface,
+    "Products.PloneFormGen.content.fields FGTextField": iface,
+    "Products.PloneFormGen.content.fields PlainTextField": iface,
+    "Products.PloneFormGen.content.fields FGDateField": iface,
+    "Products.PloneFormGen.content.fields FGIntegerField": iface,
+    "Products.PloneFormGen.content.fields FGLabelField": iface,
+    "Products.PloneFormGen.content.fields FGRichTextField": iface,
+    "Products.PloneFormGen.content.fields FGSelectionField": iface,
+    "Products.PloneFormGen.content.fields FGMultiSelectField": iface,
+    "Products.PloneFormGen.content.fields FGFieldsetStart": iface,
+    "Products.PloneFormGen.content.fields FGFieldsetEnd": iface,
+    "Products.PloneFormGen.content.fields FGBooleanField": iface,
+    "Products.PloneFormGen.content.fields FGRichLabelField": iface,
+    "Products.PloneFormGen.content.fields FGFileField": iface,
+    "Products.PloneFormGen.content.fields HtmlTextField": iface,
+    "Products.PloneFormGen.content.fields FGLinesField": iface,
+    "Products.PloneFormGen.content.fields NRBooleanField": iface,
+
+
 }
 # I have seen zodbverify on Python 2 complain with a warning about various webdav.interfaces factories.
 # Might be okay to keep them, because webdav will return in Zope 4.3.
